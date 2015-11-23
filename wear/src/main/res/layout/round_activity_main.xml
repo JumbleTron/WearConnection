@@ -6,6 +6,15 @@
     tools:deviceIds="wear_round">
 
     <TextView android:id="@+id/text" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" android:text="@string/hello_round" />
+        android:layout_height="wrap_content"
+        android:text="@string/hello_round"
+        android:layout_centerInParent="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send message"
+        android:id="@+id/send_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/text"
+        android:layout_alignEnd="@+id/text" />
 </RelativeLayout>
